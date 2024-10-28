@@ -10,8 +10,8 @@ User-Friendly Interface: Simple, easy-to-use design for seamless tracking.
 Installation
 Clone the repository:
 
-git clone https://github.com/richardkasongo2003/financetracker.git
-cd financetracker
+git clone https://github.com/richardkasongo2003/finance-tracker.git
+cd finance-tracker
 
 Dependencies:
 Install any dependencies using the package manager for your project (e.g.,pod install for Swift).
