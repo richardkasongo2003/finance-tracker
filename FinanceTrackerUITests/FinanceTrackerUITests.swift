@@ -2,7 +2,6 @@
 //  FinanceTrackerUITests.swift
 //  FinanceTrackerUITests
 //
-//  Created by Aldridge Kalenga on 10/27/24.
 //
 
 import XCTest
