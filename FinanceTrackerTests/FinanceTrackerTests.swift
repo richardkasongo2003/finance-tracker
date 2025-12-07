@@ -2,7 +2,6 @@
 //  FinanceTrackerTests.swift
 //  FinanceTrackerTests
 //
-//  Created by Aldridge Kalenga on 10/27/24.
 //
 
 import Testing
