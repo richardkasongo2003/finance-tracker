@@ -2,7 +2,6 @@
 //  FinanceTrackerApp.swift
 //  FinanceTracker
 //
-//  Created by Aldridge Kalenga on 10/27/24.
 //
 
 import SwiftUI
