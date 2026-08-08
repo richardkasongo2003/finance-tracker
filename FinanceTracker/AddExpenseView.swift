@@ -25,8 +25,10 @@ struct AddExpenseView: View {
                 }
                 
                 Button("Save") {
-                    if let amount = Double(amount) {
-                        let newExpense = Expense(category: category, amount: amount, date: date)
+                    if let parsedAmount = Double(amount), ExpenseInputProcessor.isValidAmount(parsedAmount) {
+                        // Use the Objective-C bridge to normalize input before creating the expense.
+                        let normalizedCategory = ExpenseInputProcessor.normalizedCategory(category)
+                        let newExpense = Expense(category: normalizedCategory, amount: parsedAmount, date: date)
                         expenses.append(newExpense)
                         presentationMode.wrappedValue.dismiss()
                     }
